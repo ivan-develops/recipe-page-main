@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    
+    --White: hsl(0, 0%, 100%);
+    
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    /**h2 and bold table*/
+    --Brown-800: hsl(14, 45%, 36%);
+    /**Callout*/
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+
+    /** Font weights
+    - Family: [Young Serif]
+    - Weights: 400
+
+    - Family: [Outfit]
+    - Weights: 400, 600, 700    
+    */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Outfit", sans-serif;
+    background: var(--Stone-100);
+    font-size: 16px;
+}
+.main {
+ 
+}
+.recipe {
+    margin: 8em auto;
+    width: 47.8em;
+    background: var(--White);
+    padding: 2.7em;
+    border-radius: 25px;
+}
+.image-recipe {
+    width: 100%;
+    border-radius: 15px;
+    vertical-align: top;
+}
+.title {
+    font-family: "Young Serif", serif;
+    font-size: 2.6em;
+    font-weight: normal;
+    margin: 0.8em 0 0.4em;
+}
+.title-section {
+    font-family: "Young Serif", serif;
+}
+.paragraph {
+    line-height: 155%;
+    letter-spacing: .0167em;
+}
+.callout {
+    background: var(--Rose-50);
+    padding: 1.9em;
+    margin: 1.9em 0;
+
+    .callout__title {
+        color: var(--Rose-800);
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+}
