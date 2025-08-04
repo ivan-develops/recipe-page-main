@@ -12,11 +12,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -40,13 +37,13 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - CSS Table
 - Css list
 
-
 ### What I learned
 
+I learned bullet styles, tabs, and changing colors. I also learned how to use table styles.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Label adjustment was challenging; we need to learn more. We also need to learn how to improve responsive design.
 
 ## Author
 
