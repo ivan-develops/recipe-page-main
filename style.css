@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
-
 :root {
     
     --White: hsl(0, 0%, 100%);
@@ -22,7 +21,6 @@
     - Weights: 400, 600, 700    
     */
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -32,9 +30,7 @@ body {
     font-family: "Outfit", sans-serif;
     background: var(--Stone-100);
     font-size: 16px;
-}
-.main {
- 
+    color: var(--Stone-900);
 }
 .recipe {
     margin: 8em auto;
@@ -54,21 +50,87 @@ body {
     font-weight: normal;
     margin: 0.8em 0 0.4em;
 }
-.title-section {
-    font-family: "Young Serif", serif;
-}
 .paragraph {
     line-height: 155%;
     letter-spacing: .0167em;
 }
+.bold {
+    font-weight: 800;
+}
+ul, ol {
+    list-style-position: outside; /* la viñeta se alinea con el texto */
+    padding-left: 1.5em;
+    
+    & ::marker {
+        color: var(--Brown-800);
+        font-weight: 700;
+    }  
+    li {
+        margin-bottom: 0.6em;
+        padding-left: 1.2em;
+       
+    }
+}
 .callout {
     background: var(--Rose-50);
-    padding: 1.9em;
-    margin: 1.9em 0;
+    padding: 1.8em;
+    margin: 1.9em 0 1.2em 0;
+    border-radius: 15px;
 
     .callout__title {
         color: var(--Rose-800);
         font-size: 1.3em;
         font-weight: 600;
+        margin-bottom: 0.6em;
     }
+    
+    .callout__paragraph::marker {
+            color: var(--Rose-800);       
+    }
+}
+section {
+    margin-bottom: 1.65em;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+hr {
+    margin-top: 1.8em;
+}
+.title-section {
+    font-family: "Young Serif", serif;
+    font-size: 1.8em;
+    color: var(--Brown-800);
+    font-weight: normal;
+    margin-bottom: 0.6em;
+}
+.table {
+    margin-top: 0.8em;
+    width: 100%;
+    border-collapse: collapse;    /** Permite usar border-bottom en tr*/
+
+    tr {
+        
+        border-bottom: .5px solid var(--Stone-600);
+
+        td {
+            font-weight: 600;
+            padding: 0.9em 1.9em;
+        }
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+    .first-column {
+        width: 48%;
+    }
+    .second-column {
+        font-weight: 700;
+        color: var(--Brown-800);
+    }
+}
+
+@media screen and (max-width: 375px ){
+
 }
