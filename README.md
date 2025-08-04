@@ -48,4 +48,4 @@ Label adjustment was challenging; we need to learn more. We also need to learn h
 ## Author
 
 - Website - [https://github.com/ivan-develops](https://github.com/ivan-develops)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@IvanInterfaceDeveloper](https://www.frontendmentor.io/profile/yourusername)
