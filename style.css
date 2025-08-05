@@ -29,7 +29,6 @@
 body {
     font-family: "Outfit", sans-serif;
     background: var(--Stone-100);
-    font-size: 16px;
     color: var(--Stone-900);
 }
 .recipe {
@@ -55,7 +54,7 @@ body {
     letter-spacing: .0167em;
 }
 .bold {
-    font-weight: 800;
+    font-weight: 700;
 }
 ul, ol {
     list-style-position: outside; /* la viñeta se alinea con el texto */
@@ -131,7 +130,7 @@ hr {
     }
 }
 
-@media screen and (max-width: 375px ){
+@media screen and (max-width: 23.4375em ){
     body {
         background: var(--White);
     }
